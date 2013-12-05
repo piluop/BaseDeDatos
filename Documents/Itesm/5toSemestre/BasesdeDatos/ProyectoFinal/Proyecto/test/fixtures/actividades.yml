@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  nombre: MyString
+  duracion: 1
+  costo: 1
+  descripcion: MyString
+  fecha: 2013-11-23
+
+two:
+  nombre: MyString
+  duracion: 1
+  costo: 1
+  descripcion: MyString
+  fecha: 2013-11-23

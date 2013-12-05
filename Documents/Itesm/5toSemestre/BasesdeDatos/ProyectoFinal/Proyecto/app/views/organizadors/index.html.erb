@@ -1,0 +1,27 @@
+<h1>Listing organizadors</h1>
+
+<table>
+  <tr>
+    <th>Nombre</th>
+    <th>Edad</th>
+    <th>Nomina</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @organizadors.each do |organizador| %>
+  <tr>
+    <td><%= organizador.nombre %></td>
+    <td><%= organizador.edad %></td>
+    <td><%= organizador.nomina %></td>
+    <td><%= link_to 'Show', organizador %></td>
+    <td><%= link_to 'Edit', edit_organizador_path(organizador) %></td>
+    <td><%= link_to 'Destroy', organizador, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Organizador', new_organizador_path %>

@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Nombre:</b>
+  <%= @actividade.nombre %>
+</p>
+
+<p>
+  <b>Duracion:</b>
+  <%= @actividade.duracion %>
+</p>
+
+<p>
+  <b>Costo:</b>
+  <%= @actividade.costo %>
+</p>
+
+<p>
+  <b>Descripcion:</b>
+  <%= @actividade.descripcion %>
+</p>
+
+<p>
+  <b>Fecha:</b>
+  <%= @actividade.fecha %>
+</p>
+
+
+<%= link_to 'Edit', edit_actividade_path(@actividade) %> |
+<%= link_to 'Back', actividades_path %>

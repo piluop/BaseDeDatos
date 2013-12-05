@@ -1,0 +1,27 @@
+<h1>Listing empleados</h1>
+
+<table>
+  <tr>
+    <th>Nomina</th>
+    <th>Sueldo</th>
+    <th>Edad</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @empleados.each do |empleado| %>
+  <tr>
+    <td><%= empleado.nomina %></td>
+    <td><%= empleado.sueldo %></td>
+    <td><%= empleado.edad %></td>
+    <td><%= link_to 'Show', empleado %></td>
+    <td><%= link_to 'Edit', edit_empleado_path(empleado) %></td>
+    <td><%= link_to 'Destroy', empleado, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Empleado', new_empleado_path %>

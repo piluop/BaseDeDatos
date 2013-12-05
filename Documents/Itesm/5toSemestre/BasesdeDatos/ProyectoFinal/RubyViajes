@@ -1,0 +1,17 @@
+- rails g scaffold viajes nombre:string duracion:integer costo:integer continente:string
+
+- rails g scaffold cliente nombre:string edad:integer nacionalidad:string pasaporte:string
+
+- rails g scaffold organizador nombre:string edad:integer nomina:string
+
+- rails g scaffold actividades nombre:string duracion:integer costo:integer descripcion:string fecha:date
+
+- rails g scaffold hoteles nombre:string categoria:string ubicacion:string fechaen:date fechasa:date
+
+- rails g scaffold grupo nombre:string capacidad:integer fecha:date
+
+- rails g scaffold transporte tipo:string fecha:date
+
+- rails g scaffold empleados nomina:string sueldo:integer edad:integer
+
+- rails g scaffold ingresos ingresos:integer fecha:date 

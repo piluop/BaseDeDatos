@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Ingresos:</b>
+  <%= @ingreso.ingresos %>
+</p>
+
+<p>
+  <b>Fecha:</b>
+  <%= @ingreso.fecha %>
+</p>
+
+
+<%= link_to 'Edit', edit_ingreso_path(@ingreso) %> |
+<%= link_to 'Back', ingresos_path %>

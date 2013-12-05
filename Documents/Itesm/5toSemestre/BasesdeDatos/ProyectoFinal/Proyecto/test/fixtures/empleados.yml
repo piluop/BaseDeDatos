@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  nomina: MyString
+  sueldo: 1
+  edad: 1
+
+two:
+  nomina: MyString
+  sueldo: 1
+  edad: 1

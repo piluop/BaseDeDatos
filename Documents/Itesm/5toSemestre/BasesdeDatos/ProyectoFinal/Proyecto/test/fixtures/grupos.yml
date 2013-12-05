@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  nombre: MyString
+  capacidad: 1
+  fecha: 2013-11-23
+
+two:
+  nombre: MyString
+  capacidad: 1
+  fecha: 2013-11-23

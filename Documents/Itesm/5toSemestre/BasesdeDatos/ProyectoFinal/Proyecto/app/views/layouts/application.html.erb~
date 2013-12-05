@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<p align="Center">
+<img align="Center" src="https://lh6.googleusercontent.com/-NfnzD3weBSU/UhuTeyqjVEI/AAAAAAAAADI/0JyBE7v9iVc/s630-fcrop64=1,1cca0000d9176c94/foto%2Blogo.jpg" alt="Viajes"width="300" height="200" >
+</p>
+<body style="background-color:brown;">
+<head>
+  <title>Ejemplo</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body >
+
+<%= yield %>
+</body>
+
+<a href="http://localHost:3000">
+   <button >Inicio</button>
+
+
+</html>

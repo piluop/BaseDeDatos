@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Nombre:</b>
+  <%= @hotele.nombre %>
+</p>
+
+<p>
+  <b>Categoria:</b>
+  <%= @hotele.categoria %>
+</p>
+
+<p>
+  <b>Ubicacion:</b>
+  <%= @hotele.ubicacion %>
+</p>
+
+<p>
+  <b>Fechaen:</b>
+  <%= @hotele.fechaen %>
+</p>
+
+<p>
+  <b>Fechasa:</b>
+  <%= @hotele.fechasa %>
+</p>
+
+
+<%= link_to 'Edit', edit_hotele_path(@hotele) %> |
+<%= link_to 'Back', hoteles_path %>

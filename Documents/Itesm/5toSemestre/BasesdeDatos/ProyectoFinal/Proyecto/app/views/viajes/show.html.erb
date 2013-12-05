@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Nombre:</b>
+  <%= @viaje.nombre %>
+</p>
+
+<p>
+  <b>Duracion:</b>
+  <%= @viaje.duracion %>
+</p>
+
+<p>
+  <b>Costo:</b>
+  <%= @viaje.costo %>
+</p>
+
+<p>
+  <b>Continente:</b>
+  <%= @viaje.continente %>
+</p>
+
+
+<%= link_to 'Edit', edit_viaje_path(@viaje) %> |
+<%= link_to 'Back', viajes_path %>

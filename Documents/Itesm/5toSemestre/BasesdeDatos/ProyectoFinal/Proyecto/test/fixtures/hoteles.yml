@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  nombre: MyString
+  categoria: MyString
+  ubicacion: MyString
+  fechaen: 2013-11-23
+  fechasa: 2013-11-23
+
+two:
+  nombre: MyString
+  categoria: MyString
+  ubicacion: MyString
+  fechaen: 2013-11-23
+  fechasa: 2013-11-23
